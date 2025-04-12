@@ -1,0 +1,30 @@
+music-arranger-app/
+├── backend/                         # Express.js backend
+│   ├── controllers/
+│   │   └── musicController.js       # Handles logic: receive file, call FastAPI
+│   ├── routes/
+│   │   └── music.js                 # API route: POST /analyze
+│   ├── uploads/                     # Temp folder to store uploaded files
+│   ├── server.js                    # Entry point for Express server
+│   ├── db.js                        # MongoDB connection logic
+│   └── .env                         # Environment variables (Mongo URI)
+│
+├── frontend/                        # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── UploadForm.js        # React component for uploading and displaying structure
+│   │   ├── App.js                   # Main app rendering UploadForm
+│   │   └── index.js
+│   └── package.json
+│
+├── fastapi-app/                     # FastAPI microservice for song analysis
+│   ├── main.py                      # POST /analyze route using librosa
+│   ├── requirements.txt             # Python dependencies
+│   └── temp_audio/                  # (temp) Where uploaded files are stored & removed
+│
+├── analysis/                        # Legacy or optional Python logic
+│   └── analyze.py                   # Standalone version of audio analyzer (if separate)
+│
+└── README.md                        # Project documentation
+

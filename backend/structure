@@ -1,0 +1,6 @@
+├── config/        # Database and config files
+├── controllers/   # Route controllers
+├── models/        # Data models (e.g., User, Song)
+├── routes/        # Route definitions
+└── server.js      # Main entry point
+
