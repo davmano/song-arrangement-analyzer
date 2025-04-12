@@ -29,6 +29,14 @@ This app is built for musicians, arrangers, and producers who want to gain quick
 
 ---
 
+## 👨‍💻 Author
+
+**David Mano** — Full-Stack Dev | Music Director | Tech Creator 🎧
+
+> “I build tools that empower musicians and creatives.”
+
+- GitHub: [@davmano](https://github.com/davmano)
+
 ## ⚙️ Getting Started
 
 ### 🔧 1. Clone the repo
@@ -36,4 +44,3 @@ This app is built for musicians, arrangers, and producers who want to gain quick
 ```bash
 git clone https://github.com/YOUR_USERNAME/song-arrangement-analyzer.git
 cd song-arrangement-analyzer
-
