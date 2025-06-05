@@ -42,5 +42,5 @@ This app is built for musicians, arrangers, and producers who want to gain quick
 ### 🔧 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/song-arrangement-analyzer.git
+git clone https://github.com/davmano/song-arrangement-analyzer.git
 cd song-arrangement-analyzer
